@@ -1,11 +1,11 @@
-export default function Cita() {
+export default function Cita({cita}) {
   return (
     <div className="cita">
-      <p>Mascota: <span>Nina</span></p>
-      <p>Dueño: <span>Martin</span></p>
-      <p>Fecha: <span>2021-08-05</span></p>
-      <p>Hora: <span>08:20</span></p>
-      <p>Sintomas: <span>Le duele la pierna</span></p>
+      <p>Mascota: <span>{cita.mascota}</span></p>
+      <p>Dueño: <span>{cita.propietario}</span></p>
+      <p>Fecha: <span>{cita.fecha}</span></p>
+      <p>Hora: <span>{cita.hora}</span></p>
+      <p>Sintomas: <span>{cita.sintomas}</span></p>
       <button className="button eliminar u-full-width">Eliminar ×</button>
     </div>
   );
