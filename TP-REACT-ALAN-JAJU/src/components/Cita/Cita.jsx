@@ -1,4 +1,6 @@
-  export default function Cita({cita, eliminarCita }) {
+ import './Cita.css';
+ 
+ export default function Cita({cita, eliminarCita }) {
     return (
       <div className="cita">
         <p>Mascota: <span>{cita.mascota}</span></p>

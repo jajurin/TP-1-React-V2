@@ -1,5 +1,6 @@
 import Cita from '../Cita/Cita';
 
+
 export default function Listado({citas, setCita}) {
 function eliminarCita(indexCita){
   setCita(citas.filter((cita, index) => index !== indexCita))
