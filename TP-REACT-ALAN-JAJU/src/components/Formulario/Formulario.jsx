@@ -11,6 +11,7 @@ e.preventDefault()
             sintomas: e.target.sintomas.value
 
         }
+  
 
       setCita(prev => [...prev, nuevaCita]);
 

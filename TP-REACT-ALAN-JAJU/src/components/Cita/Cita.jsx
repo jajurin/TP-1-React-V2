@@ -7,8 +7,8 @@
         <p>Dueño: <span>{cita.propietario}</span></p>
         <p>Fecha: <span>{cita.fecha}</span></p>
         <p>Hora: <span>{cita.hora}</span></p>
-        <p>Sintomas: <span>{cita.sintomas}</span></p>
+        <p>Sintomas:<span>{cita.sintomas}</span></p>
         <button onClick={eliminarCita}  className="button eliminar u-full-width">Eliminar ×</button>
-      </div>
+      </div>                                                                                              
     );
   }
