@@ -1,7 +1,7 @@
  import './Formulario.css';
 function Formulario({ setCita}) {
     const handleSumbit= (e) =>{
-
+e.preventDefault()
 
         const nuevaCita ={
            mascota: e.target.mascota.value,
